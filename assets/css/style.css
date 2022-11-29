@@ -22,9 +22,8 @@ body {
 header {
     width: 100vw;
     height: 100vh;
-    background-color: var(--dark-blue);
     overflow: hidden;
-    max-width: 1440px;
+    background-color: var(--dark-blue);
 }
 
 .container {
