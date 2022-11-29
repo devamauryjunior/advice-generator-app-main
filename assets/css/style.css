@@ -24,11 +24,10 @@ header {
     height: 100vh;
     background-color: var(--dark-blue);
     overflow: hidden;
+    max-width: 1440px;
 }
 
 .container {
-    width: 100%;
-    max-width: 1440px;
     margin: 10rem auto 0 auto;
     padding: 0 1.5rem;
 }
@@ -41,7 +40,8 @@ header {
     background-color: var(--grayish-blue);
     border-radius: 1.2rem;
     padding: 1rem 1rem;
-    margin-bottom: 3rem;
+    margin: 0 auto 3rem auto;
+    max-width: 45rem;
 }
 
 #id {
